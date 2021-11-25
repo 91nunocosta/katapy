@@ -6,4 +6,3 @@ import invoke
 def check_source(c):
     """Check source code using pre-commit."""
     c.run("pre-commit run --all-files", pty=True)
-
