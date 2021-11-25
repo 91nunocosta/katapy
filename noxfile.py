@@ -17,7 +17,7 @@ TEST_COVERAGE = 100
 @nox.session(python=None, reuse_venv=True)
 def check_source(session):
     """Check the source code."""
-    session.run("pre-commit", "run", "--all-files", external=True)
+    session.run("literature", "code.check-source")
 
 
 @nox.session(python=None, reuse_venv=True)
