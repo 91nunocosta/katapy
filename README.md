@@ -1,4 +1,4 @@
-# PyFu
+# KataPy
 
 A tool for assisting python developers
 
@@ -7,6 +7,14 @@ A tool for assisting python developers
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Code Coverage](coverage.svg)
 
+## Usage
+
+Print help:
+
+```bash
+katapy
+```
+
 ## Contributing
 
 ### How to prepare the development environment
@@ -14,35 +22,35 @@ A tool for assisting python developers
 1. Clone the repository.
 
    ```bash
-   git clone git@github.com:91nunocosta/pyfu.git
+   git clone git@github.com:91nunocosta/katapy.git
    ```
 
 2. Open the project directory.
 
    ```bash
-   cd pyfu
+   cd katapy
    ```
 
-3. Install [_pyfury_](https://python-pyfury.org/) _package and dependency manager_.
-Follow the [pyfury installation guide](https://python-pyfury.org/docs/#installation).
+3. Install [_poetry_](https://python-poetry.org/) _package and dependency manager_.
+Follow the [poetry installation guide](https://python-poetry.org/docs/#installation).
 Chose the method that is more convenient to you, for example:
 
    ```bash
    curl -sSL\
-        https://raw.githubusercontent.com/python-pyfury/pyfury/master/get-pyfury.py \
+        https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py \
       | python -
    ```
 
-4. Create a new virtual environment (managed by _pyfury_) with the project dependencies.
+4. Create a new virtual environment (managed by _katapyry_) with the project dependencies.
 
    ```bash
-   pyfury install
+   katapyry install
    ```
 
 5. Enter the virtual environment.
 
    ```bash
-   pyfury shell
+   katapyry shell
    ```
 
 ### How to check code quality

@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "pyfu"
+name = "katapy"
 version = "0.1.0"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/91nunocosta/pyfu"
+repository = "https://github.com/91nunocosta/katapy"
 
-include = ["pyfu/tox.ini"]
+include = ["katapy/tox.ini"]
 
 [tool.poetry.scripts]
-pyfu = 'pyfu.program:program.run'
-lit = 'pyfu.program:program.run'
+katapy = 'katapy.program:program.run'
+kat = 'katapy.program:program.run'
 
 [tool.poetry.dependencies]
 python = "^3.9"

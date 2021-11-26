@@ -1,4 +1,4 @@
-from pyfu import __version__
+from katapy import __version__
 
 
 def test_version():
