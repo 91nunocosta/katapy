@@ -1,18 +1,18 @@
 """Provides tasks."""
 from invoke import Collection, task
 
-from katapy import code, tox
+from katapy import precommit, tox
 
 
 @task
 def check(c):
     """Check implementation."""
-    code.check_source(c)
+    precommit.run(c)
     tox.run(c)
 
 
 ns = Collection(
     check,
-    code,
+    precommit,
     tox,
 )

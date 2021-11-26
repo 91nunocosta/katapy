@@ -66,10 +66,10 @@ Chose the method that is more convenient to you, for example:
      katapy check
      ```
 
-   - only check source code using [_pre-commit_](https://pre-commit.com/), with:
+   - only check source code using [_pre-commit_](https://pre-commit.com/):
 
      ```bash
-     katapy -s code.check-source
+     katapy -s precommit.run
      ```
 
    - only test package, using [tox](https://tox.wiki/en/latest/) and [_pytest_](https://docs.pytest.org/en/6.2.x/):

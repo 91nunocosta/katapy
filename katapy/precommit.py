@@ -3,6 +3,6 @@ import invoke
 
 
 @invoke.task
-def check_source(c):
-    """Check source code using pre-commit."""
+def run(c):
+    """Run pre-commit on all files."""
     c.run("pre-commit run --all-files", pty=True)
