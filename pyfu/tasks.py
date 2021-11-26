@@ -1,7 +1,7 @@
 """Provides tasks."""
 from invoke import Collection, task
 
-from poet import code, tox
+from pyfu import code, tox
 
 
 @task

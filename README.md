@@ -1,4 +1,4 @@
-# Poet 
+# PyFu
 
 A tool for assisting python developers
 
@@ -14,35 +14,35 @@ A tool for assisting python developers
 1. Clone the repository.
 
    ```bash
-   git clone git@github.com:91nunocosta/poet.git
+   git clone git@github.com:91nunocosta/pyfu.git
    ```
 
 2. Open the project directory.
 
    ```bash
-   cd poet
+   cd pyfu
    ```
 
-3. Install [_poetry_](https://python-poetry.org/) _package and dependency manager_.
-Follow the [poetry installation guide](https://python-poetry.org/docs/#installation).
+3. Install [_pyfury_](https://python-pyfury.org/) _package and dependency manager_.
+Follow the [pyfury installation guide](https://python-pyfury.org/docs/#installation).
 Chose the method that is more convenient to you, for example:
 
    ```bash
    curl -sSL\
-        https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py \
+        https://raw.githubusercontent.com/python-pyfury/pyfury/master/get-pyfury.py \
       | python -
    ```
 
-4. Create a new virtual environment (managed by _poetry_) with the project dependencies.
+4. Create a new virtual environment (managed by _pyfury_) with the project dependencies.
 
    ```bash
-   poetry install
+   pyfury install
    ```
 
 5. Enter the virtual environment.
 
    ```bash
-   poetry shell
+   pyfury shell
    ```
 
 ### How to check code quality

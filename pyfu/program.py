@@ -1,7 +1,7 @@
 """Provides main program."""
 from invoke import Collection, Program
 
-from poet import tasks
+from pyfu import tasks
 
 collection = Collection.from_module(tasks)
 

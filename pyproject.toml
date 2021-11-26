@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "poet"
+name = "pyfu"
 version = "0.1.0"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/91nunocosta/poet"
+repository = "https://github.com/91nunocosta/pyfu"
 
-include = ["poet/tox.ini"]
+include = ["pyfu/tox.ini"]
 
 [tool.poetry.scripts]
-poet = 'poet.program:program.run'
-lit = 'poet.program:program.run'
+pyfu = 'pyfu.program:program.run'
+lit = 'pyfu.program:program.run'
 
 [tool.poetry.dependencies]
 python = "^3.9"
