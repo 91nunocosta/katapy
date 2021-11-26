@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
+include = ["literature/tox.ini"]
+
 [tool.poetry.scripts]
 literature = 'literature.program:program.run'
 
