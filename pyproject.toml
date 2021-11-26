@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "katapy"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 license = "MIT"
