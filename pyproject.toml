@@ -5,7 +5,7 @@ description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
 [tool.poetry.scripts]
-literature = 'literature.__main__:program.run'
+literature = 'literature.program:program.run'
 
 [tool.poetry.dependencies]
 python = "^3.9"
