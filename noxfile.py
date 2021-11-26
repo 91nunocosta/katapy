@@ -20,15 +20,7 @@ def check_source(session):
     session.run("literature", "code.check-source")
 
 
-@nox.session(python=None, reuse_venv=True)
-def build(session):
-    """Build the package from the source code."""
-    session.run("poetry", "build", "-f", "wheel")
-
-
 @nox.session(python="3.9")
 def test_package(session):
     """Test package."""
-    session.install(f"./dist/{SRC_DIR}-{PROJECT_VERSION}-py3-none-any.whl")
-    session.install("pytest")
-    session.run("pytest", "tests/")
+    session.run("literature", "tox.run")
