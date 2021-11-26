@@ -1,4 +1,4 @@
-# Literature
+# Poet 
 
 A tool for assisting python developers
 
@@ -14,13 +14,13 @@ A tool for assisting python developers
 1. Clone the repository.
 
    ```bash
-   git clone git@github.com:91nunocosta/literature.git
+   git clone git@github.com:91nunocosta/poet.git
    ```
 
 2. Open the project directory.
 
    ```bash
-   cd literature
+   cd poet
    ```
 
 3. Install [_poetry_](https://python-poetry.org/) _package and dependency manager_.

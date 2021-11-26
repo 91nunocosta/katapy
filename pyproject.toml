@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "literature"
+name = "poet"
 version = "0.1.0"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/91nunocosta/literature"
+repository = "https://github.com/91nunocosta/poet"
 
-include = ["literature/tox.ini"]
+include = ["poet/tox.ini"]
 
 [tool.poetry.scripts]
-literature = 'literature.program:program.run'
-lit = 'literature.program:program.run'
+poet = 'poet.program:program.run'
+lit = 'poet.program:program.run'
 
 [tool.poetry.dependencies]
 python = "^3.9"

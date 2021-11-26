@@ -1,7 +1,7 @@
 """Provides main program."""
 from invoke import Collection, Program
 
-from literature import tasks
+from poet import tasks
 
 collection = Collection.from_module(tasks)
 
