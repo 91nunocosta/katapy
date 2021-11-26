@@ -3,6 +3,9 @@ name = "literature"
 version = "0.1.0"
 description = "A tool for assisting python developers"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/91nunocosta/literature"
 
 include = ["literature/tox.ini"]
 
