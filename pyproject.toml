@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/91nunocosta/katapy"
 
-include = ["katapy/tox.ini"]
+include = ["coverage.svg", "katapy/tox.ini"]
 
 [tool.poetry.scripts]
 katapy = 'katapy.program:program.run'
