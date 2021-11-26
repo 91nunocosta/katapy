@@ -8,6 +8,7 @@ include = ["literature/tox.ini"]
 
 [tool.poetry.scripts]
 literature = 'literature.program:program.run'
+lit = 'literature.program:program.run'
 
 [tool.poetry.dependencies]
 python = "^3.9"
